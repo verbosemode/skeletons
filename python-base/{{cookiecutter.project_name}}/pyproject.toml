@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = ""
+authors = ["Unknown <unknown@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^{{cookiecutter.python_version}}"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+ptpython = "*"
+pynvim = "*"
+jedi = {git = "https://github.com/davidhalter/jedi.git", rev = "master"}
+flake8 = "*"
+flake8-builtins = "*"
+flake8-mypy = "*"
+mypy = "*"
+bandit = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
