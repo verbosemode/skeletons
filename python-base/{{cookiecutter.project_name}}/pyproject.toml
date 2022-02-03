@@ -14,7 +14,6 @@ pynvim = "*"
 jedi = {git = "https://github.com/davidhalter/jedi.git", rev = "master"}
 flake8 = "*"
 flake8-builtins = "*"
-flake8-mypy = "*"
 mypy = "*"
 bandit = "*"
 
