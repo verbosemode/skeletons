@@ -6,6 +6,9 @@ authors = ["Unknown <unknown@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.python_version}}"
+{%- if cookiecutter.use_pydantic == "y" %}
+pydantic = "*"
+{%- endif %}
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
@@ -17,6 +20,11 @@ flake8-builtins = "*"
 flake8-bugbear = "*"
 mypy = "*"
 bandit = "*"
+
+{%- if cookiecutter.use_pydantic == "y" %}
+[tool.mypy]
+plugins = "pydantic.mypy"
+{%- endif %}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
