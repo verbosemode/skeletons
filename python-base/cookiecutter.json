@@ -1,5 +1,5 @@
 {
     "project_name": "beerbrewing",
-    "python_version": "3.9",
+    "python_version": "3.10",
     "use_pydantic" : "n"
 }
