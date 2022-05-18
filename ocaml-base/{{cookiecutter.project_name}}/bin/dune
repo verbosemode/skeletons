@@ -1,0 +1,4 @@
+(executable
+  (public_name {{cookiecutter.project_name}})
+  (name main)
+  (libraries {{cookiecutter.project_name}}))
