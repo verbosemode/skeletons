@@ -1,0 +1,4 @@
+[flake8]
+docstring-convention=google
+# E501: Line length, already enforced by Black.
+ignore = E501
