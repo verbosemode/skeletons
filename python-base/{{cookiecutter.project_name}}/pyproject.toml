@@ -22,11 +22,14 @@ flake8-docstrings = "*"
 mypy = "*"
 bandit = "*"
 
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
 {%- if cookiecutter.use_pydantic == "y" %}
 [tool.mypy]
 plugins = "pydantic.mypy"
 {%- endif %}
 
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.isort]
+profile = "black"
