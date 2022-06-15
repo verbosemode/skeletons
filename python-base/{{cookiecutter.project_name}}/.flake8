@@ -1,4 +1,5 @@
 [flake8]
 docstring-convention=google
 # E501: Line length, already enforced by Black.
-ignore = E501
+# W503: Line break occurred before a binary operator. Conflicts with Black
+ignore = E501, W503
