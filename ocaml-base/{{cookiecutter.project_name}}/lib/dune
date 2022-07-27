@@ -1,2 +1,3 @@
 (library
-  (name {{cookiecutter.project_name}}))
+  (name {{cookiecutter.project_name}})
+  (public_name {{cookiecutter.project_name}}))
