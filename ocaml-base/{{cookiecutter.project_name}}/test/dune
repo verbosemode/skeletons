@@ -1,3 +1,3 @@
 (test
-  (name {{cookiecutter.project_name}})
-  (libraries {{cookiecutter.project_name}} alcotest))
+  (name test)
+  (libraries alcotest {{cookiecutter.project_name}}))
