@@ -14,7 +14,7 @@ pydantic = "*"
 pytest = "*"
 ptpython = "*"
 pynvim = "*"
-jedi = {git = "https://github.com/davidhalter/jedi.git", rev = "master"}
+jedi = "^0.18.2"
 flake8 = "*"
 flake8-builtins = "*"
 flake8-bugbear = "*"
