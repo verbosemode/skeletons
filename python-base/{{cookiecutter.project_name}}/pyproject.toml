@@ -9,6 +9,8 @@ python = "^{{cookiecutter.python_version}}"
 {%- if cookiecutter.use_pydantic == "y" %}
 pydantic = "*"
 {%- endif %}
+# YAML
+# "ruamel.yaml" = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
