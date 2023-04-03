@@ -1,0 +1,6 @@
+{
+    "project_name": "beerbrewing",
+    "python_version": "3.10",
+    "use_system_certificate_store": "y",
+    "use_pydantic" : "n"
+}

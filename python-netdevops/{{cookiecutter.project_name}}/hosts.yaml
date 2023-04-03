@@ -1,0 +1,35 @@
+---
+all:
+  vars:
+    username: admin
+    connection_options:
+      scrapli:
+        extras:
+          ssh_config_file: true
+          auth_strict_key: true
+    # this will be stored in defaults
+    some_random_data: 23
+  hosts:
+    iosxe-router1:
+      hostname: 192.0.2.100
+
+    nxos-sw1:
+      hostname: 192.0.2.101
+
+  children:
+    ios:
+      hosts:
+        iosxe-router1:
+      vars:
+        platform: cisco_iosxe
+        connection_options:
+          scrapli:
+            platform: cisco_iosxe
+    nxos:
+      hosts:
+        nxos-sw1:
+      vars:
+        platform: cisco_nxos
+        connection_options:
+          scrapli:
+            platform: cisco_nxos
