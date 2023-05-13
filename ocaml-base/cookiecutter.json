@@ -1,3 +1,4 @@
 {
-    "project_name": "beerbrewing"
+    "project_name": "beerbrewing",
+    "use_ppx_deriving": "n"
 }
