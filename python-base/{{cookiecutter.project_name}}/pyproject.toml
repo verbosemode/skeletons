@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Unknown <unknown@example.com>"]
 license = "ISC"
+packages = [
+    { include = "{{cookiecutter.project_name}}", from = "src" },
+]
 
 # [tool.poetry.scripts]
 # {{cookiecutter.project_name}}_main = "{{cookiecutter.project_name}}.cli:main"
