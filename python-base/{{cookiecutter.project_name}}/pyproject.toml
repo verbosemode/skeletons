@@ -5,6 +5,10 @@ description = ""
 authors = ["Unknown <unknown@example.com>"]
 license = "ISC"
 
+# [tool.poetry.scripts]
+# {{cookiecutter.project_name}}_main = "{{cookiecutter.project_name}}.cli:main"
+# {{cookiecutter.project_name}}_main2 = "{{cookiecutter.project_name}}.cli:main2"
+
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.python_version}}"
 {%- if cookiecutter.use_pydantic == "y" %}
