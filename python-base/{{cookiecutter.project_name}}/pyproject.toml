@@ -45,5 +45,9 @@ warn_return_any = true
 warn_unused_ignores = true
 show_error_codes = true
 
+[tool.black]
+line-length = 120
+
 [tool.isort]
 profile = "black"
+line_length = 120

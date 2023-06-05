@@ -1,4 +1,5 @@
 [flake8]
+max-line-length=120
 docstring-convention=google
 # E501: Line length, already enforced by Black.
 # W503: Line break occurred before a binary operator. Conflicts with Black
