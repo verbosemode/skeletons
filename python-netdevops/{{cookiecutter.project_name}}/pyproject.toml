@@ -20,21 +20,20 @@ pydantic = "*"
 # YAML
 # "ruamel.yaml" = "*"
 # rich = "*"
-# dependencies for >= 1.6.53 increased significantly
 ciscoconfparse = "^1.7.5"
 ## Scrapli
-scrapli = {extras = ["textfsm"], version = "~2023.01.30"}
+scrapli = {extras = ["textfsm"], version = "~2023.07.30"}
 ## Nornir
 nornir = "^3.3"
 nornir-utils = "^0.2"
 nornir-jinja2 = "^0.2"
 nornir-ansible = "~2022.07.30"
-nornir-scrapli = "~2023.01.30"
+nornir-scrapli = "~2023.07.30"
 # Cisco ASA
-scrapli-community = "~2023.01.30"
+scrapli-community = "~2023.07.30"
 # scrapli-community = {git = "https://github.com/scrapli/scrapli_community.git", rev = "develop"}
-ntc-templates = "^3.2"
-netutils = "^1.4.0"
+ntc-templates = "^3.5"
+netutils = "^1.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
