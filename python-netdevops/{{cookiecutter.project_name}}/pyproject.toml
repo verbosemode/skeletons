@@ -20,11 +20,11 @@ pydantic = "*"
 # YAML
 # "ruamel.yaml" = "*"
 # rich = "*"
-ciscoconfparse = "^1.7.5"
+ciscoconfparse = "~1.7"
 ## Scrapli
 scrapli = {extras = ["textfsm"], version = "~2023.07.30"}
 ## Nornir
-nornir = "^3.3"
+nornir = "~3.4"
 nornir-utils = "^0.2"
 nornir-jinja2 = "^0.2"
 nornir-ansible = "~2022.07.30"
@@ -32,13 +32,13 @@ nornir-scrapli = "~2023.07.30"
 # Cisco ASA
 scrapli-community = "~2023.07.30"
 # scrapli-community = {git = "https://github.com/scrapli/scrapli_community.git", rev = "develop"}
-ntc-templates = "^3.5"
-netutils = "^1.5"
+ntc-templates = "~3.5"
+netutils = "~1.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
 ptpython = "*"
-jedi = "^0.18.2"
+jedi = "*"
 flake8 = "*"
 flake8-builtins = "*"
 flake8-bugbear = "*"
