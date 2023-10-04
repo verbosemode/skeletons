@@ -16,6 +16,7 @@ packages = [
 python = "^{{cookiecutter.python_version}}"
 {%- if cookiecutter.use_pydantic == "y" %}
 pydantic = "*"
+# pydantic-xml = "*"
 {%- endif %}
 # YAML
 # "ruamel.yaml" = "*"
