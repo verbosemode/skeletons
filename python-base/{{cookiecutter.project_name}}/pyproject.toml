@@ -14,6 +14,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.python_version}}"
+pip = "~23"
+wheel = "~0.40"
+setuptools = "~68"
 {%- if cookiecutter.use_pydantic == "y" %}
 pydantic = "*"
 {%- endif %}
@@ -23,8 +26,6 @@ pydantic = "*"
 [tool.poetry.dev-dependencies]
 pytest = "*"
 ptpython = "*"
-pynvim = "*"
-jedi = "^0.18.2"
 flake8 = "*"
 flake8-builtins = "*"
 flake8-bugbear = "*"
