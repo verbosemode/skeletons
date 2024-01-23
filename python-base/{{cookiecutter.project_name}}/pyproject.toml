@@ -6,6 +6,8 @@ authors = ["Unknown <unknown@example.com>"]
 license = "ISC"
 packages = [
     { include = "{{cookiecutter.project_name}}", from = "src" },
+    # Include single modules
+    # { include = "{{cookiecutter.project_name}}.py", from = "src" },
 ]
 
 # [tool.poetry.scripts]
