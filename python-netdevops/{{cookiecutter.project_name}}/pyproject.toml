@@ -70,6 +70,13 @@ show_column_numbers = true
 show_error_codes = true
 show_error_context = true
 
+{%- if cookiecutter.use_pydantic == "y" %}
+[tool.pydantic-mypy]
+init_forbid_extra = true
+init_typed = true
+warn_required_dynamic_aliases = true
+{%- endif %}
+
 [tool.black]
 line-length = 120
 
