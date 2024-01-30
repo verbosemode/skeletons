@@ -40,17 +40,21 @@ bandit = "*"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+# https://mypy.readthedocs.io/en/stable/config_file.html
 [tool.mypy]
 {%- if cookiecutter.use_pydantic == "y" %}
 plugins = "pydantic.mypy"
 {%- endif %}
-disallow_untyped_defs = true
-disallow_any_unimported = true
-no_implicit_optional = true
 check_untyped_defs = true
+disallow_any_unimported = true
+disallow_untyped_defs = true
+implicit_reexport = false
+show_column_numbers = true
+show_error_context = true
+warn_redundant_casts = true
 warn_return_any = true
+warn_unused_configs = true
 warn_unused_ignores = true
-show_error_codes = true
 
 {%- if cookiecutter.use_pydantic == "y" %}
 [tool.pydantic-mypy]
