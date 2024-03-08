@@ -1,4 +1,4 @@
-(lang dune 3.5)
+(lang dune 3.14)
 (name {{cookiecutter.project_name}})
 (generate_opam_files true)
 (source (github verbosemode/{{cookiecutter.project_name}}))
@@ -11,7 +11,7 @@
  (synopsis "Some random library")
  (description "A longer description about some random library")
  (depends
-  (ocaml (>= 4.08.0))
+  (ocaml (>= 4.13.0))
 {%- if cookiecutter.use_ppx_deriving == "y" %}
   (ppx_deriving :build)
 {%- endif %}
