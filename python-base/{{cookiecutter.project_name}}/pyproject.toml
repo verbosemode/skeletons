@@ -16,8 +16,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.python_version}}"
-pip = "~23"
-wheel = "~0.42"
+pip = "~24"
+wheel = "~0.43"
 setuptools = "~69"
 {%- if cookiecutter.use_pydantic == "y" %}
 pydantic = "*"

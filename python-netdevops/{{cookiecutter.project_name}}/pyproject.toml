@@ -16,8 +16,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^{{cookiecutter.python_version}}"
-pip = "~23"
-wheel = "~0.42"
+pip = "~24"
+wheel = "~0.43"
 setuptools = "~69"
 {%- if cookiecutter.use_pydantic == "y" %}
 pydantic = "*"
@@ -27,7 +27,7 @@ pydantic = "*"
 # YAML
 # "ruamel.yaml" = "*"
 # rich = "*"
-ciscoconfparse2 = "~0.4"
+ciscoconfparse2 = "~0.7"
 ## Scrapli
 scrapli = {extras = ["textfsm"], version = "~2024.01.30"}
 ## Nornir
@@ -39,8 +39,8 @@ nornir-scrapli = "~2024.01.30"
 # Cisco ASA
 scrapli-community = "~2024.01.30"
 # scrapli-community = {git = "https://github.com/scrapli/scrapli_community.git", rev = "develop"}
-ntc-templates = "~4.2"
-netutils = "~1.6"
+ntc-templates = "~4.4"
+netutils = "~1.7"
 # aerleon = "*"
 
 [tool.poetry.dev-dependencies]
