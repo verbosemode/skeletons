@@ -5,6 +5,9 @@ description = ""
 authors = ["Unknown <unknown@example.com>"]
 license = "ISC"
 packages = [
+    # make sure to create
+    # - src/{{cookiecutter.project_name}}
+    # - src/{{cookiecutter.project_name}}/__init__.py
     { include = "{{cookiecutter.project_name}}", from = "src" },
     # Include single modules
     # { include = "{{cookiecutter.project_name}}.py", from = "src" },
