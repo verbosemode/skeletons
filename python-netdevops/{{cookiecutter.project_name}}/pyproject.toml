@@ -39,7 +39,7 @@ nornir-scrapli = "~2024.01.30"
 # Cisco ASA
 scrapli-community = "~2024.01.30"
 # scrapli-community = {git = "https://github.com/scrapli/scrapli_community.git", rev = "develop"}
-ntc-templates = "~4.4"
+ntc-templates = "~5.1"
 netutils = "~1.7"
 # aerleon = "*"
 
