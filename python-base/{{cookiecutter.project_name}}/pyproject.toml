@@ -27,17 +27,14 @@ pydantic = "*"
 # "ruamel.yaml" = "*"
 
 [tool.poetry.dev-dependencies]
-pip = "~24"
-wheel = "~0.43"
-setuptools = "~69"
 pytest = "*"
-ptpython = "*"
-flake8 = "*"
-flake8-builtins = "*"
-flake8-bugbear = "*"
-flake8-docstrings = "*"
 mypy = "*"
-bandit = "*"
+# ptpython = "*"
+# flake8 = "*"
+# flake8-builtins = "*"
+# flake8-bugbear = "*"
+# flake8-docstrings = "*"
+# bandit = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
