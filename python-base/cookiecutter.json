@@ -1,5 +1,5 @@
 {
-    "project_name": "beerbrewing",
+    "project_name": "bakingbread",
     "python_version": "3.11",
     "use_system_certificate_store": "y",
     "use_pydantic" : "n"
