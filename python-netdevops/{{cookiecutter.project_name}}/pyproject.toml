@@ -40,7 +40,7 @@ nornir-scrapli = "~2024.07.30"
 scrapli-cfg = "~2024.07.30"
 scrapli-community = "~2024.07.30"
 # scrapli-community = {git = "https://github.com/scrapli/scrapli_community.git", rev = "develop"}
-ntc-templates = "~7.3"
+ntc-templates = "~7"
 netutils = "~1.10"
 # aerleon = "*"
 
